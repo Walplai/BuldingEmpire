@@ -8,11 +8,11 @@ import Social from '../../../components/socials/layout-one'
 import AuthorOffcanvas from '../../global/author-offcanvas'
 import OffCanvas, {OffCanvasHeader, OffCanvasBody} from '../../../components/shared/off-canvas'
 import {
-    HeaderWrap, 
-    HeaderOuter, 
-    HeaderInner, 
-    HeaderMain, 
-    HeaderCol, 
+    HeaderWrap,
+    HeaderOuter,
+    HeaderInner,
+    HeaderMain,
+    HeaderCol,
     HeaderElement,
     FixedHeaderHeight,
     OffcanvasSocial
@@ -33,7 +33,7 @@ const Header = (props) => {
                 siteMetadata {
                     contact {
                         social {
-                            facebook
+                            
                             instagram
                             linkedin
                             twitter
@@ -42,7 +42,7 @@ const Header = (props) => {
                     }
                 }
             }
-        }      
+        }
     `)
     const menu = HeaderData.allMenuJson.edges;
     const {social} = HeaderData.site.siteMetadata.contact;
@@ -58,7 +58,7 @@ const Header = (props) => {
         setFixedHeaderHeight(fixedRef.current.clientHeight);
         setTotalHeaderHeight(headerRef.current.clientHeight);
     }, []);
-    
+
     useEffect(() => {
         const scrollHandler = () => {
             let scrollPos = window.scrollY;
@@ -74,7 +74,7 @@ const Header = (props) => {
             window.removeEventListener('scroll', scrollHandler);
         }
     }, [sticky, fixedHeaderHeight, totalHeaderHeight]);
-    
+
     const authorOffcanvasHandler = () => {
         setAuthorOffcanvas(prev => !prev)
     }
