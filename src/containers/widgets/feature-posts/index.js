@@ -10,7 +10,7 @@ const FeaturePosts = ({ blogStyles, widgetStyle }) => {
         query FeaturePostQuery {
             allMarkdownRemark(
                 limit: 4,
-                filter: {frontmatter: {is_featured: {eq: true}}}, 
+                filter: {frontmatter: {is_featured: {eq: true}}},
                 sort: {order: DESC, fields: frontmatter___date}) {
                 edges {
                     node {
@@ -44,7 +44,7 @@ const FeaturePosts = ({ blogStyles, widgetStyle }) => {
     `)
     const blogs = featurePostData.allMarkdownRemark.edges;
     return (
-        <WidgetBox {...widgetStyle} id="feature-post">
+        <WidgetBox {...widgetStyle} id="Previous Work">
             <WidgetTitle>Featured Posts</WidgetTitle>
             <FeaturePostWrap>
                 {blogs.map(blog => (

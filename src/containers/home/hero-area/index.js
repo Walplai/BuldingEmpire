@@ -18,8 +18,8 @@ const HeroArea = () => {
                     }
                 }
             }
-        }      
-    `) 
+        }
+    `)
     const {image} = heroData.homeJson;
     return (
         <HeroWrapper>
