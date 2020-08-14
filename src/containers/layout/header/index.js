@@ -33,11 +33,11 @@ const Header = (props) => {
                 siteMetadata {
                     contact {
                         social {
-                            
+
                             instagram
-                            linkedin
+
                             twitter
-                            youtube
+                            
                         }
                     }
                 }
