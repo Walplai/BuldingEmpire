@@ -44,8 +44,8 @@ const FeaturePosts = ({ blogStyles, widgetStyle }) => {
     `)
     const blogs = featurePostData.allMarkdownRemark.edges;
     return (
-        <WidgetBox {...widgetStyle} id="Previous Work">
-            <WidgetTitle>Featured Posts</WidgetTitle>
+        <WidgetBox {...widgetStyle} id="Featured Posts">
+            <WidgetTitle>Featured Work</WidgetTitle>
             <FeaturePostWrap>
                 {blogs.map(blog => (
                     <FeaturePostItem key={blog.node.fields.slug}>
