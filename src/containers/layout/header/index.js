@@ -35,9 +35,8 @@ const Header = (props) => {
                         social {
 
                             instagram
-
                             twitter
-                            
+
                         }
                     }
                 }
