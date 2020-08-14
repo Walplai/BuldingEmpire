@@ -72,7 +72,8 @@ export const MainMenuWrap = styled.nav `
                     bottom: 5px;
                     width: 0;
                     height: 8px;
-                    background-color: ${themeGet("colors.borderColor")};
+                    background-color: ${themeGet("colors.bgbutton")};
+
                 }
             }
         }

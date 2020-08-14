@@ -21,7 +21,7 @@ const theme = {
         warning: '#ffc107',
         danger: '#dc3545',
         light:  '#f8f9fa',
-        bgButton: '#f0ec71'
+        bgbutton: '#f0ec71'
     },
     lineHieghts: {
         text: 1.714,
