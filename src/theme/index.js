@@ -15,13 +15,14 @@ const theme = {
         white: '#ffffff',
         black: '#000000',
         primary: '#004395',
-        secondary: '#d2a98e',    
+        secondary: '#d2a98e',
         success: '#28a745',
         info:  '#17a2b8',
         warning: '#ffc107',
         danger: '#dc3545',
-        light:  '#f8f9fa'
-    }, 
+        light:  '#f8f9fa',
+        bgButton: '#f0ec71'
+    },
     lineHieghts: {
         text: 1.714,
         heading: 1.857
@@ -65,5 +66,3 @@ export const device = {
 }
 
 export default theme;
-
-  

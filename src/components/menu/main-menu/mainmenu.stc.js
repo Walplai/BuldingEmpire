@@ -4,7 +4,7 @@ import {NavbarWrap} from '../../shared/navbar/navbar.stc'
 import {NavItemWrap} from '../../shared/navbar/navitem/navitem.stc'
 import {NavLinkWrap, AnchorTag, SmoothScroll} from '../../shared/navbar/navlink/navlink.stc'
 
- 
+
 export const MainMenuWrap = styled.nav `
     flex-grow: 1;
     display: flex;
@@ -72,7 +72,7 @@ export const MainMenuWrap = styled.nav `
                     bottom: 5px;
                     width: 0;
                     height: 8px;
-                    background-color: ${themeGet("colors.themeColor")};
+                    background-color: ${themeGet("colors.bgButton")};
                 }
             }
         }
